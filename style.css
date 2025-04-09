@@ -4,6 +4,7 @@ body {
     padding: 0;
     background-color: honeydew;
     text-align: center;
+    background: url('images/trin.jpeg') center/cover no-repeat;
     
 }
 
@@ -28,9 +29,9 @@ nav a:hover {
 }
 
 .hero {
-    background: url('images/DSCF1469.jpg') center/cover no-repeat;
+    background: url('images/bunner.jpg') center/cover no-repeat;
     padding: 100px 20px;
-    color: honeydew;
+    color: black;
 }
 
 .features {
@@ -114,4 +115,18 @@ button:hover {
     .features, .services-grid {
         flex-direction: column;
     }
+}
+
+
+.dark-theme {
+    background-color: #121212;
+    color: #f0f0f0;
+}
+
+.answer {
+    display: none;
+}
+
+.answer.visible {
+    display: block;
 }

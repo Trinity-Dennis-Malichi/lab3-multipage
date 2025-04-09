@@ -1,33 +1,32 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact - Lab3</title>
-    <link rel="stylesheet" href="style.css">
-</head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Contact - Lab3</title>
+<link href="style.css" rel="stylesheet"/>
+<script defer="True" src="script.js"></script></head>
 <body>
-    <header>
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="services.html">Services</a>
-            <a href="contact.html">Contact</a>
-        </nav>
-    </header>
-
-    <section class="contact-form">
-        <h2>Contact Us</h2>
-        <form>
-            <input type="text" name="name" placeholder="Your Name" required>
-            <input type="email" name="email" placeholder="Your Email" required>
-            <input type="text" name="subject" placeholder="Subject" required>
-            <textarea name="message" placeholder="Your Message" required></textarea>
-            <button type="submit">Send Message</button>
-        </form>
-    </section>
-
-    <footer>
-        <p>&copy; 2025 Lab3 Project</p>
-    </footer>
+<header>
+<nav>
+<a href="index.html">Home</a>
+<a href="services.html">Services</a>
+<a href="contact.html">Contact</a>
+</nav>
+</header>
+<section class="contact-form">
+<h2>Contact Us</h2>
+<form>
+<input id="nameInput" name="name" placeholder="Your Name" required="" type="text"/>
+<input name="email" placeholder="Your Email" required="" type="email"/>
+<input name="subject" placeholder="Subject" required="" type="text"/>
+<textarea id="messageInput" name="message" placeholder="Your Message" required=""></textarea>
+<button type="submit">Send Message</button>
+</form><div id="response"></div>
+</section>
+<footer>
+<p>© 2025 Lab3 Project</p>
+</footer>
 </body>
 </html>
